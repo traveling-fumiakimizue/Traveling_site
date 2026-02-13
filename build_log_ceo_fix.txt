@@ -1,0 +1,26 @@
+
+> temp_app@0.1.0 build
+> next build
+
+笆ｲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./src/app/page.tsx:173:26
+Parsing ecmascript source code failed
+  171 |                 </div>
+  172 |               </div>
+> 173 |           </ScrollFadeIn>
+      |                          ^
+> 174 |         </div>
+      | ^^^^^^^^^
+  175 |       </section>
+  176 |
+  177 |       {/* Company Info */}
+
+Expected '</', got 'jsx text'
+
+
+    at <unknown> (./src/app/page.tsx:173:26)

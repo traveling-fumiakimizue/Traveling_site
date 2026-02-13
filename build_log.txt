@@ -1,0 +1,46 @@
+
+> temp_app@0.1.0 build
+> next build
+
+笆ｲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./src/app/layout.tsx:5:1
+Module not found: Can't resolve '@/components/layout/Footer'
+  3 | import "./globals.css";
+  4 | import { Header } from "@/components/layout/Header";
+> 5 | import { Footer } from "@/components/layout/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const inter = Inter({ subsets: ["latin"] });
+  8 |
+
+Import map: aliased to relative './src/components/layout/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/layout/Header'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { Header } from "@/components/layout/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Footer } from "@/components/layout/Footer";
+  6 |
+  7 | const inter = Inter({ subsets: ["latin"] });
+
+Import map: aliased to relative './src/components/layout/Header' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./src/app/layout.tsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/layout.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
