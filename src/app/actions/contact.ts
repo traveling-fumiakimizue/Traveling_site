@@ -8,7 +8,7 @@ const schema = z.object({
     name: z.string().trim().min(1, { message: 'お名前を入力してください' }).max(100, { message: 'お名前は100文字以内で入力してください' }),
     email: z.string().trim().email({ message: '有効なメールアドレスを入力してください' }),
     company: z.string().trim().max(100, { message: '会社名は100文字以内で入力してください' }).optional(),
-    message: z.string().trim().min(1, { message: 'お問い合わせ内容を入力してください' }).max(5000, { message: 'お問い合わせ内容は5000文字以内で入力してください' }),
+    message: z.string().trim().min(1, { message: 'お問い合わせ内容を入力してください' }).max(1000, { message: 'お問い合わせ内容は1000文字以内に収めてください' }),
 })
 
 export type FormState = {

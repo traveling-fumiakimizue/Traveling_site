@@ -47,8 +47,8 @@ export function ContactForm() {
                     {state.errors?.company && <p className="text-red-500 text-sm">{state.errors.company}</p>}
                 </div>
                 <div className="space-y-2">
-                    <label htmlFor="message" className="text-sm font-medium">お問い合わせ内容 <span className="text-red-500">*</span></label>
-                    <Textarea id="message" name="message" placeholder="ご相談内容をご記入ください" rows={5} className="bg-slate-50" required defaultValue={state.inputs?.message} />
+                    <label htmlFor="message" className="text-sm font-medium">お問い合わせ内容(1,000文字) <span className="text-red-500">*</span></label>
+                    <Textarea id="message" name="message" placeholder="ご相談内容をご記入ください" rows={5} className="bg-slate-50" required maxLength={1000} defaultValue={state.inputs?.message} />
                     {state.errors?.message && <p className="text-red-500 text-sm">{state.errors.message}</p>}
                 </div>
                 {state.message && !state.success && (
