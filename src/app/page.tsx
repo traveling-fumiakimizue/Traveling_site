@@ -61,8 +61,11 @@ export default function Home() {
           <ScrollFadeIn delay={0.4}>
             <div className="p-6 md:p-10 bg-[#10385F] text-white rounded-2xl shadow-xl text-center">
               <p className="text-xl md:text-2xl font-bold mb-6">わたしたちが解決します</p>
-              <p className="text-gray-100 leading-relaxed md:leading-loose text-base md:text-lg opacity-90 text-left md:text-center max-w-3xl mx-auto">
-                業界最大手の情報システム部に13年間務めた経験から、御社に必要な【IT投資計画】を作成し、情シスプロデューサーとしてIT部門の &quot;機能&quot; と &quot;役割&quot; を定義して、IT部門の構築とIT導入支援を行います。
+              <p className="text-gray-100 leading-relaxed md:leading-loose text-base md:text-lg opacity-90 text-center max-w-3xl mx-auto">
+                業界最大手の情報システム部に13年間務めた経験から、<br className="hidden md:inline" />
+                御社に必要な【IT投資計画】を作成し、<br className="hidden md:inline" />
+                情シスプロデューサーとしてIT部門の &quot;機能&quot; と &quot;役割&quot; を定義して、<br className="hidden md:inline" />
+                IT部門の構築とIT導入支援を行います。
               </p>
             </div>
           </ScrollFadeIn>
