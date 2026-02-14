@@ -62,10 +62,8 @@ export default function Home() {
             <div className="p-6 md:p-10 bg-[#10385F] text-white rounded-2xl shadow-xl text-center">
               <p className="text-xl md:text-2xl font-bold mb-6">わたしたちが解決します</p>
               <p className="text-gray-100 leading-relaxed md:leading-loose text-base md:text-lg opacity-90 text-center max-w-3xl mx-auto">
-                業界最大手の情報システム部に13年間務めた経験から、<br className="hidden md:inline" />
-                御社に必要な【IT投資計画】を作成し、<br className="hidden md:inline" />
-                情シスプロデューサーとしてIT部門の &quot;機能&quot; と &quot;役割&quot; を定義して、<br className="hidden md:inline" />
-                IT部門の構築とIT導入支援を行います。
+                業界最大手の情報システム部に13年間務めた経験から御社に必要な【ITロードマップ】を作成し、<br className="hidden md:inline" />
+                IT投資計画とIT部門の役割を定義して、御社のIT化を伴走します。
               </p>
             </div>
           </ScrollFadeIn>
