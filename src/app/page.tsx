@@ -145,9 +145,16 @@ export default function Home() {
                   <p>
                     私はこれまで、大手SIerのシステム開発現場と、非IT企業の情報システム部門を経験してきました。その中で感じたのは、日本に足りないIT人材は、技術者ではなく、ITで成果を出す戦略家がいないという課題です。
                   </p>
-                  <p>
-                    弊社のビジョンは<span className="text-[#10385F]">【ITの民主化】</span>です。「ITは難しい」「私には関係がない」という社長を1人でも減らし、ITで会社の未来を明るくすること、ITで成果を出せる人材を増やすことが弊社のミッションです。
-                  </p>
+                  <div className="text-center font-medium py-4 space-y-4">
+                    <p>
+                      私のビジョンは<span className="text-[#10385F]">【ITの民主化】</span>です。
+                    </p>
+                    <p>
+                      「ITは難しい」「私には関係がない」という社長を1人でも減らし、<br className="hidden md:inline" />
+                      ITで会社の未来を明るくすること、<br className="hidden md:inline" />
+                      ITで成果を出せる人材を増やすことが私のミッションです。
+                    </p>
+                  </div>
                 </div>
 
                 <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
