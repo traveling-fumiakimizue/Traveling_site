@@ -74,7 +74,7 @@ export default function PrivacyPolicyPage() {
                             5. クッキー（Cookie）について
                         </h2>
                         <p className="leading-relaxed text-muted-foreground">
-                            当サイトでは、サービスの利便性向上やサイトの利用状況分析（Google Search Console等の解析ツール）のために、クッキー（Cookie）を使用することがあります。クッキーには個人を特定する情報は含まれておりません。ブラウザの設定により、クッキーの受け取りを拒否することも可能です。
+                            当サイトでは、サービスの利便性向上やサイトの利用状況分析（Googleアナリティクス等の解析ツール）のために、クッキー（Cookie）を使用することがあります。クッキーには個人を特定する情報は含まれておりません。ブラウザの設定により、クッキーの受け取りを拒否することも可能です。
                         </p>
                     </section>
 
@@ -88,7 +88,7 @@ export default function PrivacyPolicyPage() {
                     </section>
 
                     <section className="pt-6 border-t border-slate-100 text-right text-sm text-muted-foreground">
-                        制定日：2024年4月1日<br />
+                        制定日：2024年9月23日<br />
                         株式会社Traveling<br />
                         代表取締役 水江 文暁
                     </section>
