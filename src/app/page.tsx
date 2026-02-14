@@ -23,8 +23,9 @@ export default function Home() {
                 Empower Your<br />IT Department.
               </h2>
               <p className="text-lg md:text-xl leading-loose font-medium opacity-95">
-                株式会社Travelingは「強いIT部門が経営を強くする」という信念のもと、<br className="block my-2" />
-                非IT企業に特化した情シスプロデューサーとして、IT部門構築に必要なノウハウを提供いたします。
+                わたしたちは「強いIT部門が経営を強くする」という信念のもと、<br className="hidden md:inline" />
+                非IT企業に特化した情シスプロデューサーとして、<br className="hidden md:inline" />
+                IT部門構築に必要なノウハウを提供いたします。
               </p>
             </div>
           </ScrollFadeIn>
