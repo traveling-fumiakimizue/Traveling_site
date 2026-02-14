@@ -41,8 +41,8 @@ export default function Home() {
 
           <div className="space-y-6 mb-16">
             {[
-              "事業拡大を優先してIT投資を後回しにしていたが、そろそろ検討したい",
-              "IT投資が場当たりで、成果が見えない。社内に専門家がいないため、相談相手がいない",
+              "事業拡大を最優先してきた結果、IT投資が後回しになっている",
+              "社内に専門家がおらず、場当たり的な対応でIT投資の成果が見えない",
               "IT部門＝PC調達や御用聞きに留まり、経営基盤を支える存在になっていない"
             ].map((item, index) => (
               <ScrollFadeIn key={index} delay={index * 0.1}>
@@ -50,7 +50,7 @@ export default function Home() {
                   <div className="mt-1 bg-[#10385F] rounded-full p-1 shrink-0">
                     <Check className="h-4 w-4 text-white" />
                   </div>
-                  <p className="text-base md:text-xl font-medium text-[#10385F] leading-relaxed break-words">
+                  <p className="text-lg md:text-xl font-medium text-[#10385F] leading-relaxed">
                     {item}
                   </p>
                 </div>
