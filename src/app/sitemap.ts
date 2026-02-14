@@ -9,5 +9,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'monthly',
             priority: 1,
         },
+        {
+            url: 'https://www.traveling.co.jp/privacy',
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.5,
+        },
     ]
 }
