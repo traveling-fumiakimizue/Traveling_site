@@ -28,24 +28,27 @@ export function ContactForm() {
     return (
         <div className="bg-white p-8 rounded-2xl shadow-xl text-foreground">
             <form action={formAction} className="space-y-6">
+                {/* Honeypot field - hidden from users */}
+                <input type="text" name="website" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+
                 <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium">お名前 <span className="text-red-500">*</span></label>
-                    <Input id="name" name="name" placeholder="山田 太郎" className="bg-slate-50" required />
+                    <Input id="name" name="name" placeholder="山田 太郎" className="bg-slate-50" required defaultValue={state.inputs?.name} />
                     {state.errors?.name && <p className="text-red-500 text-sm">{state.errors.name}</p>}
                 </div>
                 <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">メールアドレス <span className="text-red-500">*</span></label>
-                    <Input id="email" name="email" type="email" placeholder="tarou.yamada@example.com" className="bg-slate-50" required />
+                    <Input id="email" name="email" type="email" placeholder="tarou.yamada@example.com" className="bg-slate-50" required defaultValue={state.inputs?.email} />
                     {state.errors?.email && <p className="text-red-500 text-sm">{state.errors.email}</p>}
                 </div>
                 <div className="space-y-2">
                     <label htmlFor="company" className="text-sm font-medium">会社名</label>
-                    <Input id="company" name="company" placeholder="株式会社Traveling" className="bg-slate-50" />
+                    <Input id="company" name="company" placeholder="株式会社Traveling" className="bg-slate-50" defaultValue={state.inputs?.company} />
                     {state.errors?.company && <p className="text-red-500 text-sm">{state.errors.company}</p>}
                 </div>
                 <div className="space-y-2">
                     <label htmlFor="message" className="text-sm font-medium">お問い合わせ内容 <span className="text-red-500">*</span></label>
-                    <Textarea id="message" name="message" placeholder="ご相談内容をご記入ください" rows={5} className="bg-slate-50" required />
+                    <Textarea id="message" name="message" placeholder="ご相談内容をご記入ください" rows={5} className="bg-slate-50" required defaultValue={state.inputs?.message} />
                     {state.errors?.message && <p className="text-red-500 text-sm">{state.errors.message}</p>}
                 </div>
                 {state.message && !state.success && (
