@@ -19,14 +19,28 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.traveling.co.jp'),
   title: "株式会社Traveling | 非IT企業に特化した【情シスプロデューサー】",
-  description: "株式会社Travelingは、非IT企業の経営基盤を支える「IT部門」をプロデュースします。業界最大手の情シスで13年の経験を持つ水江文暁が、御社専用のIT投資計画、組織構築、ベンダー管理を支援。ITの民主化で、会社の未来を明るくします。",
+  description: "業界最大手の情シスに13年勤務した経験から、御社のITロードマップ作成、IT投資計画、IT部門の役割定義を推進。100億円規模の企業様向けに、ITの民主化と成果の最大化を実現します。",
   openGraph: {
-    title: "株式会社Traveling",
-    description: "非IT企業に特化した【情シスプロデューサー】",
+    title: "株式会社Traveling | ITの民主化で会社の未来を明るくする",
+    description: "ITは難しい、関係ない、を解決します。ITロードマップの作成から導入推進まで。",
     siteName: "株式会社Traveling",
     locale: "ja_JP",
     type: "website",
+    images: [
+      {
+        url: "/assets/images/traveling_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "株式会社Traveling ロゴ",
+      },
+    ],
+  },
+  icons: {
+    icon: "/assets/images/traveling_logo.png",
+    shortcut: "/assets/images/traveling_logo.png",
+    apple: "/assets/images/traveling_logo.png",
   },
 };
 
