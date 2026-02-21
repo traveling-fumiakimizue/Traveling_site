@@ -24,7 +24,7 @@ export default function Home() {
               </h2>
               <p className="text-lg md:text-xl leading-loose font-medium opacity-95">
                 わたしたちは「強いIT部門が経営を強くする」という信念のもと、<br className="hidden md:inline" />
-                非IT企業に特化した情シスプロデューサーとして、<br className="hidden md:inline" />
+                非IT企業に特化したIT戦略部プロデューサーとして、<br className="hidden md:inline" />
                 IT部門構築に必要なノウハウを提供いたします。
               </p>
             </div>
