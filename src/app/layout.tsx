@@ -20,10 +20,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.traveling.co.jp'),
-  title: "株式会社Traveling | 非IT企業に特化した【情シスプロデューサー】",
+  title: "株式会社Traveling | Empower Your IT Department.",
   description: "業界最大手の情シスに13年勤務した経験から、御社のITロードマップ作成、IT投資計画、IT部門の役割定義を推進。100億円規模の企業様向けに、ITの民主化と成果の最大化を実現します。",
   openGraph: {
-    title: "株式会社Traveling | ITの民主化で会社の未来を明るくする",
+    title: "株式会社Traveling | Empower Your IT Department.",
     description: "ITは難しい、関係ない、を解決します。ITロードマップの作成から導入推進まで。",
     siteName: "株式会社Traveling",
     locale: "ja_JP",
@@ -36,6 +36,12 @@ export const metadata: Metadata = {
         alt: "株式会社Traveling ロゴ",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "株式会社Traveling | Empower Your IT Department.",
+    description: "業界最大手の情シスに13年勤務した経験から、御社のITロードマップ作成、IT投資計画、IT部門の役割定義を推進。100億円規模の企業様向けに、ITの民主化と成果の最大化を実現します。",
+    images: ["/assets/images/traveling_logo.png"],
   },
   icons: {
     icon: "/assets/images/traveling_logo.png",
