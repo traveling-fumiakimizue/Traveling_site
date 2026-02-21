@@ -53,7 +53,7 @@ export function Header() {
                     <Link href="/" className="flex items-center gap-2" onClick={handleLogoClick}>
                         <div className="flex flex-col">
                             <h1 className="font-bold text-[#10385F] text-lg md:text-xl leading-tight">株式会社Traveling</h1>
-                            <span className="text-[10px] md:text-xs text-gray-600">非IT企業に特化した【情シスプロデューサー】</span>
+                            <span className="text-[10px] md:text-xs text-gray-600">Empower Your IT Department.</span>
                         </div>
                     </Link>
                 </div>
